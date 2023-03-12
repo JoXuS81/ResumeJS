@@ -1,0 +1,49 @@
+/* 
+Table of Contents
+    Fonts
+    Variables
+    Body
+*/
+
+
+// Fonts
+    // Poppins Bold
+    @font-face 
+    {
+        font-family:"poppinsBold";
+        src:url("../../../Fonts/Poppins/poppinsBold.ttf");
+    }
+    // Poppins Regular
+    @font-face 
+    {
+        font-family:"poppinsRegular";
+        src:url("../../../Fonts/Poppins/poppinsRegular.ttf");
+    }
+
+
+// Variables
+$background:#20202a;
+$leftRight:#282831;
+$leftShadow:rgba(0, 0, 0, 0.15);
+$leftTop:#292929;
+$skill:#9b9b9b;
+$skillBar:#383838;
+$white:#ffffff;
+
+
+// Body
+body 
+{
+    @import "../Content/mainContainer";
+    background:$background;
+}
+
+
+.bodyAdd 
+{
+    .bodyArea 
+    {
+        background:$background;
+        overflow-y:hidden;
+    }
+}

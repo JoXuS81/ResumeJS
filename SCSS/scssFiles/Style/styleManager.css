@@ -1,0 +1,1038 @@
+/* 
+Table of Contents
+    Fonts
+    Variables
+    Body
+*/
+@font-face {
+  font-family: "poppinsBold";
+  src: url("../../../Fonts/Poppins/poppinsBold.ttf");
+}
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("../../../Fonts/Poppins/poppinsRegular.ttf");
+}
+body {
+  /*
+  Table of Contents
+      Main container
+  */
+  background: #20202a;
+}
+body .mainContainer {
+  width: 100%;
+}
+body .mainContainer section .content .left {
+  background: #282831;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 22%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer {
+  width: 88%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock {
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .heading h6 {
+  color: #ffffff;
+  font-family: poppinsBold;
+  font-size: 16px;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .line {
+  background: #ffffff;
+  height: 1px;
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text {
+  margin: 12px 0 0 0;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text h6 {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 16px;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text .textInside {
+  margin: 10px 0 0 0;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine {
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .bottomArea {
+  margin: 10px 0 0 0;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide {
+  width: 40%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+  color: #ffffff;
+  font-family: poppinsBold;
+  font-size: 16px;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide {
+  width: 60%;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 16px;
+}
+body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .line {
+  background: #ffffff;
+  height: 0.75px;
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .left .leftContent .top {
+  background: #292929;
+  height: 311px;
+}
+body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer {
+  margin: 0;
+}
+body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer img {
+  height: auto;
+  width: 125px;
+}
+body .mainContainer section .content .left .leftContent .top .topContainer .textContainer {
+  margin: 19px 0 0 0;
+}
+body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h5 {
+  color: #ffffff;
+  font-family: poppinsBold;
+}
+body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h6 {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 17px;
+  margin: 5px 0 0 0;
+}
+body .mainContainer section .content .middle {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%);
+  width: 56%;
+}
+body .mainContainer section .content .middle .content {
+  width: 89%;
+}
+body .mainContainer section .content .middle .content .imgBlock {
+  border: 15px solid #20202a;
+}
+body .mainContainer section .content .middle .content .imgBlock .imgContainer {
+  cursor: pointer;
+}
+body .mainContainer section .content .right {
+  background: #282831;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  direction: rtl;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  width: 22%;
+}
+body .mainContainer section .content .right .rightContainer {
+  direction: ltr;
+  margin: 30px 0 0 0;
+  width: 89%;
+}
+body .mainContainer section .content .right .rightContainer .bottom {
+  margin: 56px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills {
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .heading {
+  width: 9.4%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .heading h6 {
+  color: #ffffff;
+  font-family: poppinsBold;
+  font-size: 15px;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill {
+  height: 38px;
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea {
+  height: 20px;
+  margin: 5px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea {
+  display: flex;
+  height: 20px;
+  justify-content: end;
+  width: 20%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea h6 {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 15px;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea {
+  width: 80%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer {
+  background: #383838;
+  height: 7px;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBar {
+  background: #9b9b9b;
+  height: 7px;
+  width: 90%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEight {
+  background: #9b9b9b;
+  height: 7px;
+  width: 41%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEleven {
+  background: #9b9b9b;
+  height: 7px;
+  width: 20%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFive {
+  background: #9b9b9b;
+  height: 7px;
+  width: 62%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFour {
+  background: #9b9b9b;
+  height: 7px;
+  width: 69%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarNine {
+  background: #9b9b9b;
+  height: 7px;
+  width: 34%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarOne {
+  background: #9b9b9b;
+  height: 7px;
+  width: 90%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSeven {
+  background: #9b9b9b;
+  height: 7px;
+  width: 48%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSix {
+  background: #9b9b9b;
+  height: 7px;
+  width: 55%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTen {
+  background: #9b9b9b;
+  height: 7px;
+  width: 27%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarThree {
+  background: #9b9b9b;
+  height: 7px;
+  width: 76%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwelve {
+  background: #9b9b9b;
+  height: 7px;
+  width: 13%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwo {
+  background: #9b9b9b;
+  height: 7px;
+  width: 83%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea {
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea h6 {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 15px;
+}
+body .mainContainer section .content .right .rightContainer .top {
+  height: 177px;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .top .heading {
+  height: 20px;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .top .heading h6 {
+  color: #ffffff;
+  font-family: poppinsBold;
+  font-size: 15px;
+  height: 100%;
+  width: 16%;
+}
+body .mainContainer section .content .right .rightContainer .top .line {
+  background: #ffffff;
+  height: 0.75px;
+  margin: 22px 0 0 0;
+  width: 100%;
+}
+body .mainContainer section .content .right .rightContainer .top .text {
+  margin: 5px 0 0 0;
+}
+body .mainContainer section .content .right .rightContainer .top .text h6 {
+  height: 20px;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textFour {
+  width: 96%;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textMargin {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 15px;
+  margin: 2px 0 0 0;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textOne {
+  color: #ffffff;
+  font-family: poppinsRegular;
+  font-size: 15px;
+  width: 65%;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textSix {
+  width: 92%;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textThree {
+  width: 65%;
+}
+body .mainContainer section .content .right .rightContainer .top .text .textTwo {
+  width: 56%;
+}
+@media (max-width: 576px) {
+  body .mainContainer section .content .left {
+    overflow: initial;
+    position: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom {
+    margin: 0 0 25px 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide {
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    text-align: center;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide {
+    margin: 0;
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer {
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    text-align: center;
+  }
+  body .mainContainer section .content .middle {
+    height: initial;
+    left: initial;
+    position: initial;
+    transform: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .middle .content {
+    margin: 25px 0 25px 0;
+    width: 95%;
+  }
+  body .mainContainer section .content .right {
+    position: initial;
+    width: 100%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  body .mainContainer section .content .left {
+    overflow: initial;
+    position: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom {
+    margin: 0 0 25px 0;
+  }
+  body .mainContainer section .content .middle {
+    height: initial;
+    left: initial;
+    position: initial;
+    transform: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .middle .content {
+    margin: 25px 0 25px 0;
+    width: 95%;
+  }
+  body .mainContainer section .content .right {
+    position: initial;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
+  body .mainContainer section .content .left {
+    overflow: initial;
+    position: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom {
+    margin: 0 0 25px 0;
+  }
+  body .mainContainer section .content .middle {
+    height: initial;
+    left: initial;
+    position: initial;
+    transform: initial;
+    width: 100%;
+  }
+  body .mainContainer section .content .middle .content {
+    margin: 25px 0 25px 0;
+    width: 95%;
+  }
+  body .mainContainer section .content .right {
+    height: initial;
+    left: initial;
+    overflow: initial;
+    position: initial;
+    transform: initial;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide {
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    margin: 0;
+    text-align: center;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide {
+    margin: 0;
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer {
+    width: 100%;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    margin: 0;
+    text-align: center;
+  }
+  body .mainContainer section .content .middle {
+    height: initial;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock {
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .heading h6 {
+    font-size: 20px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .line {
+    height: 1.25px;
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text {
+    margin: 15px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text h6 {
+    font-size: 20px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text .textInside {
+    margin: 12.5px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine {
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .bottomArea {
+    margin: 12.5px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    font-size: 20px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    font-size: 20px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .line {
+    height: 0.93px;
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top {
+    height: 389px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer img {
+    width: 156px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer {
+    margin: 23px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h5 {
+    font-size: 25px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h6 {
+    font-size: 21px;
+    margin: 6px 0 0 0;
+  }
+  body .mainContainer section .content .middle .content .imgBlock {
+    border: 18px solid #20202a;
+  }
+  body .mainContainer section .content .right .rightContainer {
+    margin: 37px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom {
+    margin: 70px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .heading h6 {
+    font-size: 18px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill {
+    height: 47px;
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea {
+    height: 25px;
+    margin: 6px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea {
+    height: 25px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea h6 {
+    font-size: 18px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBar {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEight {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEleven {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFive {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFour {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarNine {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarOne {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSeven {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSix {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTen {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarThree {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwelve {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwo {
+    height: 8px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea h6 {
+    font-size: 18px;
+  }
+  body .mainContainer section .content .right .rightContainer .top {
+    height: 221px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading {
+    height: 25px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading h6 {
+    font-size: 18px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .line {
+    height: 0.93px;
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text {
+    margin: 6px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text h6 {
+    height: 25px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textMargin {
+    font-size: 18px;
+    margin: 2.5px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textOne {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock {
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .heading h6 {
+    font-size: 25px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .line {
+    height: 1.6px;
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text {
+    margin: 18px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text h6 {
+    font-size: 25px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text .textInside {
+    margin: 16px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine {
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .bottomArea {
+    margin: 16px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    font-size: 25px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    font-size: 25px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .line {
+    height: 1.2px;
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top {
+    height: 486px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer img {
+    width: 195px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer {
+    margin: 28px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h5 {
+    font-size: 31px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h6 {
+    font-size: 26px;
+    margin: 7.5px 0 0 0;
+  }
+  body .mainContainer section .content .middle .content .imgBlock {
+    border: 22px solid #20202a;
+  }
+  body .mainContainer section .content .right .rightContainer {
+    margin: 46px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom {
+    margin: 87px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .heading h6 {
+    font-size: 22px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill {
+    height: 58px;
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea {
+    height: 31px;
+    margin: 7.5px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea {
+    height: 31px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea h6 {
+    font-size: 22px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBar {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEight {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEleven {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFive {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFour {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarNine {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarOne {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSeven {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSix {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTen {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarThree {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwelve {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwo {
+    height: 10px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea h6 {
+    font-size: 22px;
+  }
+  body .mainContainer section .content .right .rightContainer .top {
+    height: 276px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading {
+    height: 31px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading h6 {
+    font-size: 22px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .line {
+    height: 1.2px;
+    margin: 33px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text {
+    margin: 7.5px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text h6 {
+    height: 31px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textMargin {
+    font-size: 22px;
+    margin: 3.1px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textOne {
+    font-size: 22px;
+  }
+}
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock {
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .heading h6 {
+    font-size: 31px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .line {
+    height: 2px;
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text {
+    margin: 22px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text h6 {
+    font-size: 31px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text .textInside {
+    margin: 20px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine {
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .bottomArea {
+    margin: 20px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    font-size: 31px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    font-size: 31px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .line {
+    height: 1.5px;
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top {
+    height: 608px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer img {
+    width: 244px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer {
+    margin: 35px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h5 {
+    font-size: 38px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h6 {
+    font-size: 32px;
+    margin: 9.3px 0 0 0;
+  }
+  body .mainContainer section .content .middle .content .imgBlock {
+    border: 27px solid #20202a;
+  }
+  body .mainContainer section .content .right .rightContainer {
+    margin: 57px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom {
+    margin: 108px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .heading h6 {
+    font-size: 27px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill {
+    height: 72px;
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea {
+    height: 38px;
+    margin: 9.3px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea {
+    height: 38px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea h6 {
+    font-size: 27px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBar {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEight {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEleven {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFive {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFour {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarNine {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarOne {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSeven {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSix {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTen {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarThree {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwelve {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwo {
+    height: 13px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea h6 {
+    font-size: 27px;
+  }
+  body .mainContainer section .content .right .rightContainer .top {
+    height: 345px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading {
+    height: 38px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading h6 {
+    font-size: 27px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .line {
+    height: 1.5px;
+    margin: 41px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text {
+    margin: 9.3px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text h6 {
+    height: 38px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textMargin {
+    font-size: 27px;
+    margin: 3.8px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textOne {
+    font-size: 27px;
+  }
+}
+@media (min-width: 3751px) {
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock {
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .heading h6 {
+    font-size: 38px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .line {
+    height: 2.5px;
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text {
+    margin: 27px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text h6 {
+    font-size: 38px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlock .infoArea .text .textInside {
+    margin: 25px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine {
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .bottomArea {
+    margin: 25px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .leftSide .textContainer h6 {
+    font-size: 38px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .infoLine .rightSide .textContainer h6 {
+    font-size: 38px;
+  }
+  body .mainContainer section .content .left .leftContent .bottom .bottomContainer .infoBlockLocations .line {
+    height: 1.8px;
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top {
+    height: 760px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .imgContainer img {
+    width: 305px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer {
+    margin: 43px 0 0 0;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h5 {
+    font-size: 47px;
+  }
+  body .mainContainer section .content .left .leftContent .top .topContainer .textContainer h6 {
+    font-size: 40px;
+    margin: 12px 0 0 0;
+  }
+  body .mainContainer section .content .middle .content .imgBlock {
+    border: 33px solid #20202a;
+  }
+  body .mainContainer section .content .right .rightContainer {
+    margin: 71px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom {
+    margin: 135px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .heading h6 {
+    font-size: 33px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill {
+    height: 90px;
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea {
+    height: 47px;
+    margin: 12px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea {
+    height: 47px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .percentArea h6 {
+    font-size: 33px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBar {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEight {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarEleven {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFive {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarFour {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarNine {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarOne {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSeven {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarSix {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTen {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarThree {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwelve {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .bottomArea .skillArea .skillContainer .skillBarTwo {
+    height: 16px;
+  }
+  body .mainContainer section .content .right .rightContainer .bottom .skills .skill .topArea h6 {
+    font-size: 33px;
+  }
+  body .mainContainer section .content .right .rightContainer .top {
+    height: 431px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading {
+    height: 47px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .heading h6 {
+    font-size: 33px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .line {
+    height: 1.8px;
+    margin: 51px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text {
+    margin: 12px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text h6 {
+    height: 47px;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textMargin {
+    font-size: 33px;
+    margin: 4.7px 0 0 0;
+  }
+  body .mainContainer section .content .right .rightContainer .top .text .textOne {
+    font-size: 33px;
+  }
+}
+
+.bodyAdd .bodyArea {
+  background: #20202a;
+  overflow-y: hidden;
+}/*# sourceMappingURL=styleManager.css.map */

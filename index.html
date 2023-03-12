@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+    <!-- Website/template language -->
+    <html lang = "en">  
+
+        <!-- Head -->
+        <head>
+            <!-- Language coding - UTF-8 -->
+            <meta charset = "utf-8">
+            <!-- Description, important for SEO -->
+            <meta name = "description" content = "">
+            <!-- Keywords -->
+            <meta name = "keywords" content = "">
+            <!-- Suiting for different device sizes -->
+            <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0">
+            <!-- For quality view on Internet Explorer/Edge -->
+            <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+            <!-- Connections with external files -->
+            <link rel = "icon" type = "image/png" href = "Images/titleBar/Foodex.png">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap.min.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-grid.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-grid.min.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-reboot.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-reboot.min.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/scssFiles/Style/styleManager.css">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/fontAwesome/scss/_icons.scss">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/fontAwesome/scss/regular.scss">
+            <link rel = "stylesheet" type = "text/css" href = "SCSS/fontAwesome/scss/solid.scss">
+            <link href = 'https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel = 'stylesheet'>
+            <!-- Title -->
+            <title>
+                CV - Jovan Stanisic
+            </title>
+            <!-- 
+            Credits 
+                Animations
+                Code snippets
+                    Bootstrap, Reorder Columns
+                    https://dev.to/codeply/re-order-grid-columns-in-bootstrap-5-135k
+                    Calculate Top Position in jQuery
+                    https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_css_position
+                    Chocolate Menu
+                    https://www.youtube.com/watch?v=FbSTevd8ioU 
+                    Code Corrections
+                    Visual Studio Code
+                    Icon Change When User Reach Position
+                    https://errorsandanswers.com/trigger-event-when-user-scroll-to-specific-element-with-jquery/
+                    Pointer in CSS
+                    https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor
+                    Use Float
+                    https://stackoverflow.com/questions/44620571/place-objects-in-inline-display
+                    Obsidian Age
+                    Use Inline-Flex
+                    https://stackoverflow.com/questions/49872513/displayinline-block-and-displayflex-at-the-same-time
+                    Jeroen W
+            -->
+            <!-- 
+            Table of Contents 
+                Body
+                    Loader
+                    JavaScript Connections
+            -->
+        </head>
+
+        
+        <!-- Body -->
+        <body class = "bodyArea">
+
+            <!-- Loader -->
+
+            <!-- Main container -->
+            <div class = "m-0 mainContainer p-0">
+                <section class = "m-0 p-0">
+                    <div class = "content m-0 p-0 row">
+                        <div class = "col-4 left m-0 pl-0 pr-0 pt-0">
+                            <div class = "leftContent m0-0 pl-0 pr-0">
+                                <div class = "align-items-center d-flex justify-content-center m-0 pl-0 pr-0 top">
+                                    <div class = "m-0 p-0 topContainer">
+                                        <div class = "d-flex imgContainer justify-content-center">
+                                            <img class = "img-fluid" src = "Images/Section/JS.png" alt = "JS">
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 textContainer">
+                                            <h5 class = "m-0 p-0 text-center">
+                                                Jovan Stanisic
+                                            </h5>
+                                            <h6 class = "mb-0 ml-0 mr-0 p-0 text-center">
+                                                Frontend Developer
+                                            </h6>
+                                            <h6 class = "mb-0 ml-0 mr-0 p-0 text-center">
+                                                Unity Developer
+                                            </h6>
+                                            <h6 class = "mb-0 ml-0 mr-0 p-0 text-center">
+                                                Unreal Developer
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "bottom d-flex justify-content-center ml-0 mr-0 pl-0 pr-0">
+                                    <div class = "bottomContainer m-0 p-0">
+                                        <div class = "infoBlockLocations m-0 p-0">
+                                            <div class = "infoLine mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "col-12 col-xxl-6 leftSide m-0 p-0">
+                                                    <div class = "m-0 p-0 textContainer">
+                                                        <h6 class = "m-0 p-0">
+                                                            Place of Birth
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-12 col-xxl-6 d-flex justify-content-end m-0 p-0 rightSide">
+                                                    <div class = "m-0 p-0 textContainer">
+                                                        <h6 class = "m-0 p-0">
+                                                            Jajce, BiH
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class = "bottomArea col-12 col-xxl-6 leftSide mb-0 ml-0 mr-0 p-0">
+                                                    <div class = "m-0 p-0 textContainer">
+                                                        <h6 class = "m-0 p-0">
+                                                            Residence
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class = "bottomArea col-12 col-xxl-6 d-flex justify-content-end mb-0 ml-0 mr-0 p-0 rightSide">
+                                                    <div class = "m-0 p-0 textContainer">
+                                                        <h6 class = "m-0 p-0">
+                                                            Banja Luka, BiH
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class = "line mb-0 ml-0 mr-0 p-0">
+                                            </div>
+                                        </div>
+                                        <div class = "infoBlock mb-0 ml-0 mr-0 p-0">
+                                            <div class = "infoArea m-0 p-0">
+                                                <div class = "heading m-0 p-0">
+                                                    <h6 class = "m-0 p-0">
+                                                        Certificates
+                                                    </h6>
+                                                </div>
+                                                <div class = "mb-0 ml-0 mr-0 p-0 text">
+                                                    <h6 class = "m-0 p-0">
+                                                        ESACH - European Student’s Association for Cultural Heritage
+                                                    </h6>
+                                                    <h6 class = "mb-0 ml-0 mr-0 p-0 textInside">
+                                                        NASA Space Apps Challenge 2020, 2021, 2022
+                                                    </h6>
+                                                </div>
+                                                <div class = "line mb-0 ml-0 mr-0 p-0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "infoBlock mb-0 ml-0 mr-0 p-0">
+                                            <div class = "infoArea m-0 p-0">
+                                                <div class = "heading m-0 p-0">
+                                                    <h6 class = "m-0 p-0">
+                                                        Diplomas
+                                                    </h6>
+                                                </div>
+                                                <div class = "mb-0 ml-0 mr-0 p-0 text">
+                                                    <h6 class = "m-0 p-0">
+                                                        BACHELOR DEGREE - Law - Studied on University of Banja Luka
+                                                    </h6>
+                                                    <h6 class = "mb-0 ml-0 mr-0 p-0 textInside">
+                                                        MASTER DEGREE - Constitutional Law - Studied on University of Belgrade
+                                                    </h6>
+                                                </div>
+                                                <div class = "line mb-0 ml-0 mr-0 p-0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "infoBlock mb-0 ml-0 mr-0 p-0">
+                                            <div class = "infoArea m-0 p-0">
+                                                <div class = "heading m-0 p-0">
+                                                    <h6 class = "m-0 p-0">
+                                                        Experience
+                                                    </h6>
+                                                </div>
+                                                <div class = "mb-0 ml-0 mr-0 p-0 text">
+                                                    <h6 class = "m-0 p-0">
+                                                        NASA Space Apps Challenge 2020, 2021, 2022 Contestant
+                                                    </h6>
+                                                    <h6 class = "mb-0 ml-0 mr-0 p-0 textInside">
+                                                        UPWORK - Web Design Project
+                                                    </h6>
+                                                </div>
+                                                <div class = "line mb-0 ml-0 mr-0 p-0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "infoBlock infoBlockBottom mb-0 ml-0 mr-0 pl-0 pr-0 pt-0">
+                                            <div class = "infoArea m-0 p-0">
+                                                <div class = "heading m-0 p-0">
+                                                    <h6 class = "m-0 p-0">
+                                                        Languages
+                                                    </h6>
+                                                </div>
+                                                <div class = "mb-0 ml-0 mr-0 p-0 text">
+                                                    <h6 class = "m-0 p-0">
+                                                        English - B1/B2
+                                                    </h6>
+                                                    <h6 class = "mb-0 ml-0 mr-0 p-0 textInside">
+                                                        German - A2 (Lesen Module - B1)
+                                                    </h6>
+                                                    <h6 class = "mb-0 ml-0 mr-0 p-0 textInside">
+                                                        Italian - Basic
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "align-items-center col-4 d-flex justify-content-center m-0 middle p-0">
+                            <div class = "containerArea content ml-0 mr-0 p-0 row">
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://www.behance.net/gallery/140490309/Via-Travel-Agency-Figma-Web-Template';">
+                                        <img class = "img-fluid" src = "Images/Section/Via.png" alt = "Via">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://www.behance.net/gallery/129902667/FoodeX?tracking_source=search_users_recommended';">
+                                        <img class = "img-fluid" src = "Images/Section/FoodeX.png" alt = "FoodeX">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://joxus81.github.io/Scientis/';">
+                                        <img class = "img-fluid" src = "Images/Section/Scientis.png" alt = "Scientis">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://joxus81.github.io/Bikem/';">
+                                        <img class = "img-fluid" src = "Images/Section/Bikem.png" alt = "Bikem">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://joxus81.github.io/CreativY/';">
+                                        <img class = "img-fluid" src = "Images/Section/CreativY.png" alt = "CreativY">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0" onclick = "window.location = 'https://joxus81.github.io/ResumeX/';">
+                                        <img class = "img-fluid" src = "Images/Section/ResumeX.png" alt = "ResumeX">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0">
+                                        <img class = "img-fluid" src = "Images/Section/Solar.png" alt = "Solar">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0">
+                                        <img class = "img-fluid" src = "Images/Section/decodeGiza.png" alt = "Decode Giza">
+                                    </div>
+                                </div>
+                                <div class = "col-12 col-sm-6 col-xxl-4 imgBlock m-0 p-0">
+                                    <div class = "imgContainer m-0 p-0">
+                                        <img class = "img-fluid" src = "Images/Section/decodeColosseum.png" alt = "Decode Colosseum">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-4 d-flex justify-content-center m-0 p-0 right">
+                            <div class = "mb-0 ml-0 mr-0 p-0 rightContainer">
+                                <div class = "m-0 p-0 top">
+                                    <div class = "heading m-0 p-0">
+                                        <h6 class = "m-0 p-0">
+                                            Interests
+                                        </h6>
+                                    </div>
+                                    <div class = "mb-0 ml-0 mr-0 p-0 text">
+                                        <h6 class = "m-0 p-0 textOne">
+                                            Archaeology
+                                        </h6>
+                                        <h6 class = "mb-0 ml-0 mr-0 p-0 textMargin textTwo">
+                                            Astronomy
+                                        </h6>
+                                        <h6 class = "mb-0 ml-0 mr-0 p-0 textMargin textThree">
+                                            Astrophysics
+                                        </h6>
+                                        <h6 class = "mb-0 ml-0 mr-0 p-0 textFour textMargin">
+                                            Computer Science
+                                        </h6>
+                                        <h6 class = "mb-0 ml-0 mr-0 p-0 textFive textMargin">
+                                            Digital Archaeology
+                                        </h6>
+                                        <h6 class = "mb-0 ml-0 mr-0 p-0 textMargin textSix">
+                                            Planetary Science
+                                        </h6>
+                                    </div>
+                                    <div class = "line mb-0 ml-0 mr-0 p-0">
+                                    </div>
+                                </div>
+                                <div class = "bottom mb-0 ml-0 mr-0 p-0">
+                                    <div class = "m-0 p-0 skills">
+                                        <div class = "heading m-0 p-0">
+                                            <h6 class = "m-0 p-0">
+                                                Skills
+                                            </h6>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill skillTop">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    CSS
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarOne">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        90%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    HTML
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarTwo">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        83%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    SCSS
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarThree">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        76%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    Unity
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarFour">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        69%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    Bootstrap
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarFive">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        62%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    Figma
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarSix">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        55%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    3DS Max
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBar skillBarSeven">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        48%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    C#
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarEight">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        41%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    Unreal
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarNine">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        34%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    Blender
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarTen">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        27%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    JS
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarEleven">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        20%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "mb-0 ml-0 mr-0 p-0 skill">
+                                            <div class = "m-0 p-0 topArea">
+                                                <h6 class = "mb-0 ml-0 mr-0 p-0">
+                                                    After Effects
+                                                </h6>
+                                            </div>
+                                            <div class = "bottomArea mb-0 ml-0 mr-0 p-0 row">
+                                                <div class = "align-items-center col-6 d-flex m-0 p-0 skillArea row">
+                                                    <div class = "col-6 m-0 p-0 skillContainer">
+                                                        <div class = "m-0 p-0 skillBarTwelve">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "col-6 m-0 p-0 percentArea">
+                                                    <h6 class = "m-0 p-0">
+                                                        13%
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <!-- JavaScript Connections -->
+            <script src = 'JS/jQueryPopper/jquery-3.6.0.min.js'></script>
+            <script src = 'JS/jQueryPopper/popper.min.js'></script>
+
+            <script src = 'JS/Bootstrap/bootstrap.js'></script>
+            <script src = 'JS/Bootstrap/bootstrap.min.js'></script>
+            <script src = 'JS/Bootstrap/bootstrap.bundle.js'></script>
+            <script src = 'JS/Bootstrap/bootstrap.bundle.min.js'></script>
+
+            <script src = 'JS/pageTop.js'></script>
+            <script src = 'JS/navbar.js'></script>
+            <script src = 'JS/menu.js'></script>
+            <script src = 'JS/stickyMenu.js'></script>
+
+            <script src = 'JS/Zenscroll/zenscroll-min.js'></script>
+
+            <script src = 'JS/all.min.js'></script>
+
+        </body>
+
+
+    </html>
